@@ -1,8 +1,7 @@
 Script used to generate the function hashes used in Metasploit.  <p>
 The following are for kernel32.dll and ntdll.dll. The script will look for all exported function names in the provided dll. 
 
-
-
+```
 Beginning Directory search
 [+] test_dlls/kernel32.dll: 0x92AF16DA
 	[ordinal ] Hash: Function Name (Address)
@@ -3399,4 +3398,4 @@ Beginning Directory search
 	[00002031] msf_hash(0xABDD6341): wcstol (0x7DECEDA2)
 	[00002032] msf_hash(0x95052C6A): wcstombs (0x7DF45A25)
 	[00002033] msf_hash(0xA18D83A9): wcstoul (0x7DF45A06)
-
+```
